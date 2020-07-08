@@ -223,7 +223,9 @@ header {
   -o-transform: translateX(-60%) translateY(-60%);
   transform: translateX(-60%) translateY(-60%);
 }
-
+#cusplogo {
+  width: 100%;
+}
 .sidebar-navigation ul {
   margin-left: 45px;
   list-style: none;
