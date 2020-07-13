@@ -542,6 +542,7 @@ header {
   text-align: left;
   position: relative;
   z-index: 10;
+  width: 10px;
 }
 
 #featured .item .image {
