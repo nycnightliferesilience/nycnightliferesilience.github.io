@@ -522,7 +522,7 @@ header {
 
 #featured .owl-nav .owl-next span, #featured .owl-nav .owl-prev span {
   outline: none;
-  width: 50px;
+  width: 150px;
   height: 50px;
   display: inline-block;
   text-align: center;
@@ -539,10 +539,10 @@ header {
 }
 
 #featured .item {
-  text-align: left;
+  text-align: center;
   position: relative;
   z-index: 10;
-  width: 10px;
+  width: 350px;
 }
 
 #featured .item .image {
