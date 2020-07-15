@@ -315,7 +315,6 @@ header {
   color: #45489a;
 }
 
-
 /* Slider Style */
 
 .slider .content-section {
@@ -339,14 +338,14 @@ header {
   text-align: right;
   position: absolute;
   z-index: 10;
-  top: 50%;
+  top: 30%;
   right: 60px;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
   display: inline-block;
+  background-color: rgba(12,12,12,0.9);
+  padding: 20px 30px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .Modern-Slider .info h1 {
