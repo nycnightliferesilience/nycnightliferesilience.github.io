@@ -5,6 +5,9 @@ Sentra Template
 https://templatemo.com/tm-518-sentra
 
 */
+html {
+  overflow-x: hidden;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
