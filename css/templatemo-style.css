@@ -1346,6 +1346,7 @@ header {
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
+  width: 25%;
   float: left;
   border: none;
   outline: none;
