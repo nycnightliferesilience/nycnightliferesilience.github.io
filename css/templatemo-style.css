@@ -1374,6 +1374,7 @@ header {
 .tabcontent {
   display: none;
   padding: 20px 30px;
+  text-align: left;
   border: none;
   border-top: none;
 
