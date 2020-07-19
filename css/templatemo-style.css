@@ -405,9 +405,7 @@ header {
   display: block;
 }
 
-.hometitle .item-1 .image {
-  background-image: url(../img/temp-background.jpg);
-}
+
 
 .hometitle .item .image {
   animation: zoomin 12s ease-in-out infinite alternate;
@@ -532,6 +530,7 @@ header {
   background-size: cover;
   display: block;
 }
+
 
 }
 
