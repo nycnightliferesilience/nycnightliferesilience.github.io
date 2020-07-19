@@ -1340,6 +1340,7 @@ header {
   background-color: #f1f1f1;
   border-bottom: 10px solid #45489a;
   width: 100%;
+  
 }
 
 /* Style the buttons inside the tab */
@@ -1352,7 +1353,8 @@ header {
   padding: 20px 20px;
   transition: 0.3s;
   color: #232323;
-  font-size: 15px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
   font-weight: 600;
 }
 
