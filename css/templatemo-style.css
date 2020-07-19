@@ -1,9 +1,6 @@
 /* 
-
 Sentra Template
-
 https://templatemo.com/tm-518-sentra
-
 */
 html {
   overflow-x: hidden;
@@ -169,7 +166,7 @@ header {
 
 
 /* Responsive Navigation */
-/*
+
 .responsive-nav {
   position: fixed;
   z-index: 10;
@@ -223,7 +220,7 @@ header {
 
 .navbar-toggle span {
   background-color: #232323;
-}*/
+}
 
 
 /* Sidebar Style */
@@ -431,11 +428,11 @@ header {
 }
 
 .slider p a {
-	color: #FFF;
+  color: #FFF;
 }
 .slider p a:hover {
-	color: #FF0;
-	text-decoration: none;
+  color: #FF0;
+  text-decoration: none;
 }
 
 .Modern-Slider .info {
@@ -608,7 +605,7 @@ header {
   outline: none;
 }
 
-/*#featured .owl-nav {
+#featured .owl-nav {
   position: absolute;
   display: inline-block;
   top: -110px;
@@ -639,7 +636,7 @@ header {
 #featured .owl-nav span:hover {
   background-color: #45489a;
   color: #fff;
-}*/
+}
 
 #featured .item {
   text-align: center;
@@ -745,7 +742,7 @@ header {
 
 #video .section-heading {
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 #video .section-heading h1 {
@@ -855,7 +852,6 @@ header {
   border-bottom: 10px solid #45489a;
 }
 
-
 #blog .tabs li {
   display: inline-block;
   text-align: center;
@@ -875,7 +871,7 @@ header {
   font-size: 15px;
   line-height: 80px;
   font-weight: 600;
-  transition: 0.5s;;
+  transition: 0.5s;
 }
 
 #blog .tabs a:hover {
@@ -1150,12 +1146,12 @@ header {
     padding-right: 15px;
   }
 
-/*  #featured .owl-nav {
+  #featured .owl-nav {
     position: absolute;
     display: inline-block;
     top: -220px;
     right: 0;
-  }*/
+  }
 
   #projects {
     padding-left: 15px;
