@@ -287,9 +287,9 @@
                 <div class="section-content">
                     <div class="tab">
                         <button class="tablinks" onclick="openTab(event, 'NS')" id="defaultOpen">Neighborhood Selection</button>
+                        <button class="tablinks" onclick="openTab(event, 'TA')">Text Analysis</button>
                         <button class="tablinks" onclick="openTab(event, 'RA')">Risk Analysis</button>
-                        <button class="tablinks" onclick="openTab(event, 'DTR')">Decision Tree Regression</button>
-                        <button class="tablinks" onclick="openTab(event, 'C')">Clustering</button>
+                        <button class="tablinks" onclick="openTab(event, 'O')">Ongoing Analysis</button>
                     </div>
 
                     <div id="NS" class="tabcontent">
@@ -301,31 +301,41 @@
                         </div>
                     </div>
 
+                    <div id="TA" class="tabcontent">
+                        <h4> Text analysis header </h4>
+                        <span></span>
+                        <p>text analysis blurb</p>
+                    </div>
+
                     <div id="RA" class="tabcontent">
-                        <h4>Measuring risk of permanent nightlife loss</h4>
+                        <h4>Interpreting how risk factors lead to nightlife venue closure</h4>
                         <span></span>
                         <p>Considering the data sources available and research findings from existing literature, the five features expected to impact the risk of permanent nightlife loss are shown in the table below.</p>
                         <div class="text-center">
-                            <img src="img/risk_table.png" width="800" alt="">
+                            <img src="img/risk_table.png" width="800" alt=""><br><br>
+                        </div>
+                        <h4>Gaussian Mixture Model: Uncovering the underlying patterns of nightlife vulnerability</h4>
+                        <span></span>
+                        <p>Gaussian Mixture analysis was used to understand additional patterns, contextualize "outlier" neighborhoods, and summarize the characteristics of each cluster in more detail.</p>
+                        <div class="text-center">
+                            <img src="img/cluster_temporary.png" alt="">
                         </div>
                     </div>
 
-                    <div id="DTR" class="tabcontent">
-                        <h4>Interpreting how risk factors lead to nightlife venue closure</h4>
+                    <div id="O" class="tabcontent">
+                        <h4>Using decision trees to reveal most influential risk factors</h4>
                         <span></span>
                         <p>Decision tree regression was used for its interpretability to gauge which risk factors can predict nightlife loss through venue closures.</p>
                         <p>Feature Importance shows that OLS_PCT (the change in commercial real estate property value) is the most important feature in determining risk for closure.</p>
                         <div class="text-center">
 						    <img src="img/Capstone Decision Tree.PNG" width="800" alt=""><br><br>
                             <img src="img/Decision Tree Feature Importance.PNG" width="525" alt="">
-                        </div>
-                    </div>
-
-                    <div id="C" class="tabcontent">
-                        <h4>Gaussian Mixture Model: Uncovering the underlying patterns of nightlife vulnerability</h4>
+                        </div><br><br>
+                        <h4>Building validation dataset header</h4>
                         <span></span>
-                        <p>Gaussian Mixture analysis was used to understand additional patterns, contextualize "outlier" neighborhoods, and summarize the characteristics of each cluster in more detail.</p>
-                        <img src="img/cluster_temporary.png" alt="">
+                        <p>Validation dataset blurb.</p>
+
+                        
                     </div>
                 </div>
             </section>
