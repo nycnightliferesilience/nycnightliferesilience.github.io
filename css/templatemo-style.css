@@ -543,7 +543,7 @@ header {
 }
 
 @keyframes zoomin {
-    0% {-webkit-transform: scale(1);}
+    5% {-webkit-transform: scale(1);}
     100% {-webkit-transform: scale(1.2);}
 }
 
