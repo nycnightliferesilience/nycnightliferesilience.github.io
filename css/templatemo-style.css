@@ -874,9 +874,9 @@ header {
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.5px;
   color: #232323;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 80px;
   font-weight: 600;
   transition: 0.5s;
