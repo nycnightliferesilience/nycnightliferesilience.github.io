@@ -1,4 +1,4 @@
-/* 
+/*
 Sentra Template
 https://templatemo.com/tm-518-sentra
 */
@@ -142,7 +142,7 @@ header {
 
 .projects-wordcontent1, .projects-wordcontent2, .projects-wordcontent3{
   font-weight: 400;
-  margin:0% 4%; 
+  margin:0% 4%;
   background-color: rgba(250,250,250);
   padding: 1% 10%;
 }
@@ -337,7 +337,7 @@ header {
 
 .sidebar-navigation .social-icons {
   position: absolute;
-  width: 100%;  
+  width: 100%;
   bottom: 10px;
   padding: 0;
   margin: 0;
@@ -820,7 +820,7 @@ header {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all .6s .8s;
-  transition: all .6s .8s;  
+  transition: all .6s .8s;
 }
 .box-video.open .video-container{
   opacity: 1;
@@ -1128,7 +1128,7 @@ header {
     z-index:5;
   }
 
-  
+
 
 }
 
