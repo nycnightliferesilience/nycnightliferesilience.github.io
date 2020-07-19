@@ -460,7 +460,15 @@ header {
 .Modern-Slider .info h2 {
   margin-top: 35px;
   margin-bottom: 35px;
-  font-size: 25px;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.Modern-Slider .info h3 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 20px;
   color: #fff;
   font-weight: 400;
 }
