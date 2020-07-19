@@ -1265,13 +1265,13 @@ header {
   clear:both;
 }
 
-#blog2 .tabgroup ul {
+#blog2 .tabgroup2 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-#blog2 .tabgroup ul li {
+#blog2 .tabgroup2 ul li {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
@@ -1279,19 +1279,19 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-#blog2 .tabgroup ul li:last-child {
+#blog2 .tabgroup2 ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-#blog2 .tabgroup ul li img {
+#blog2 .tabgroup2 ul li img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
 }
-#blog2 .tabgroup ul li .text-content {
+#blog2 .tabgroup2 ul li .text-content {
   display: inline;
 }
 
@@ -1329,11 +1329,11 @@ header {
   font-size: 13px;
 }
 
-#blog2 .tabgroup ul li img {
+#blog2 .tabgroup2 ul li img {
   float: none;
   width: 100%;
   margin-bottom: 15px;
 }
-#blog2 .tabgroup ul li .text-content {
+#blog2 .tabgroup2 ul li .text-content {
   display: block;
 }
