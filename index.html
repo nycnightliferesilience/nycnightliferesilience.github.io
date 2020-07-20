@@ -293,11 +293,11 @@
                     </div>
 
                     <div id="NS" class="tabcontent">
-                        <h4>Vulnerable nightlife centers</h4>
+                        <h4>Neighborhood Selection: Identifying vulnerable nightlife centers</h4>
                             <span></span>
                             <p>MOME's COVID-19 Impact Survey results, overlaid with LiveXYZ business data, guided the team in determining neighborhoods with highest overall data availability in Manhattan, Brooklyn, and Queens. Additional neighborhoods were chosen based on MOME concern.</p>
                         <div class="text-center">
-                            <img src="img/target_neighborhoods.png" alt="">
+                            <img src="img/target_neighborhoods.png" width="700" alt="">
                         </div>
                     </div>
 
@@ -308,35 +308,35 @@
                     </div>
 
                     <div id="RA" class="tabcontent">
-                        <h4>Interpreting how risk factors lead to nightlife venue closure</h4>
-                        <span></span>
-                        <p>Considering the data sources available and research findings from existing literature, the five features expected to impact the risk of permanent nightlife loss are shown in the table below.</p>
-                        <div class="text-center">
-                            <img src="img/risk_table.png" width="750" alt=""><br><br>
-                        </div>
+                        <h4>Risk Metrics: Interpreting how risk factors lead to nightlife venue closure</h4>
+                            <span></span>
+                            <p>Considering the data sources available and research findings from existing literature, the five features expected to impact the risk of permanent nightlife loss are shown in the table below.</p>
+                            <div class="text-center">
+                                <img src="img/risk_table.png" width="750" alt=""><br><br>
+                            </div>
                         <h4>Gaussian Mixture Model: Uncovering the underlying patterns of nightlife vulnerability</h4>
-                        <span></span>
-                        <p>Gaussian Mixture analysis was used to understand additional patterns, contextualize "outlier" neighborhoods, and summarize the characteristics of each cluster in more detail.</p>
-                        <p>Four distinct clusters were identified. Chelsea clustered independently, likely because it had considerably more venues per capita than the other neighborhoods. The resulting clusters from GMM revealed clear patterns within each group of neighborhoods based on risk metrics.</p>
-                        <div class="text-center">
-                            <img src="img/gm_clusters.png" width="625" alt="">
-                        </div>
+                            <span></span>
+                            <p>Gaussian Mixture analysis was used to understand additional patterns, contextualize "outlier" neighborhoods, and summarize the characteristics of each cluster in more detail.</p>
+                            <p>Four distinct clusters were identified. Chelsea clustered independently, likely because it had considerably more venues per capita than the other neighborhoods. The resulting clusters from GMM revealed clear patterns within each group of neighborhoods based on risk metrics.</p>
+                            <div class="text-center">
+                                <img src="img/gm_clusters.png" width="400" alt=""> <img src="img/gm_table.png" width="500" alt="">
+                            </div>
                     </div>
 
                     <div id="O" class="tabcontent">
-                        <h4>Using decision trees to reveal most influential risk factors</h4>
-                        <span></span>
-                        <p>Decision tree regression was used for its interpretability to gauge which risk factors can predict nightlife loss through venue closures.</p>
-                        <p>Feature Importance shows that OLS_PCT (the change in commercial real estate property value) is the most important feature in determining risk for closure.</p>
-                        <div class="text-center">
-                            <img src="img/Capstone Decision Tree.PNG" width="750" alt=""><br><br>
-                            <img src="img/Decision Tree Feature Importance.PNG" width="450" alt="">
-                        </div><br><br>
+                        <h4>Decision Tree Regression: Using decision trees to reveal most influential risk factors</h4>
+                            <span></span>
+                            <p>Decision tree regression was used for its interpretability to gauge which risk factors can predict nightlife loss through venue closures.</p>
+                            <p>Feature Importance shows that OLS_PCT (the change in commercial real estate property value) is the most important feature in determining risk for closure.</p>
+                            <div class="text-center">
+                                <img src="img/Capstone Decision Tree.PNG" width="750" alt=""><br><br>
+                                <img src="img/Decision Tree Feature Importance.PNG" width="450" alt="">
+                            </div><br><br>
                         <h4>Building validation dataset header</h4>
-                        <span></span>
-                        <p>Validation dataset blurb.</p>
+                            <span></span>
+                            <p>BetaNYC, grassroot organizations, and volunteers have been working together to create an open source dataset of essential businesses and their statuses.</p>
+                            <p> Using these sourced data, the team is building a validation dataset that can be used in training additional machine learning models to predict a venue's operational status.</p>
 
-                        
                     </div>
                 </div>
             </section>
