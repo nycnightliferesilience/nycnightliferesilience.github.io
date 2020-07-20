@@ -1384,3 +1384,33 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*---*/
+#sponsor {
+  padding-left: 60px;
+  padding-right: 15px;
+}
+#sponsor2 {
+  padding-left: 60px;
+  padding-right: 15px;
+}
+
+.section-heading2 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+.content-section2 {
+  padding-top: 80px;
+  position: center;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
